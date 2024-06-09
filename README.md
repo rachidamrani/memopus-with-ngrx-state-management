@@ -24,6 +24,11 @@ This is a basic example of implementing state management using NgRx Store in an 
     - Identifiant : admin
     - Password : admin
 
+To inspect your NgRx application state, install the Redux DevTools extension for your browser:
+
+Chrome: [Redux Devtools](https://chromewebstore.google.com/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+Firefox: [Redux Devtools](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+
 
 # Participants : 
 
