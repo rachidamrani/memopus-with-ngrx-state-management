@@ -1,0 +1,13 @@
+<!-- Terms  -->
+<app-terms></app-terms>
+
+<!-- Cards  -->
+<section class="cards">
+  @for (card of cards; track card.id) {
+  <app-card
+    [question]="card.question"
+    [answer]="card.answer"
+    [selected]="card.selected"
+  ></app-card>
+  }
+</section>

@@ -1,0 +1,27 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c757d;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav svg {
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+    margin-left: .5rem;
+    font-weight: 600;
+}

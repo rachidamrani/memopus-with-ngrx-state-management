@@ -1,0 +1,78 @@
+.terms {
+  width: fit-content;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.terms svg {
+  margin-right: 1rem;
+  font-size: x-large;
+  color: green;
+  cursor: pointer;
+}
+
+.term {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  width: 100px;
+  font-weight: bolder;
+  background-color: #facc15;
+  color: black;
+  margin-right: 1rem;
+  cursor: pointer;
+  transform: transform 0.5s ease-in-out;
+}
+
+.term:hover {
+  opacity: 80%;
+  transform: scale(1.1);
+}
+
+/* Modals  */
+
+#modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#modal {
+  background-color: #fff;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#modal-container.isActive {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+@media (max-width: 926px) {
+  form {
+    flex-direction: column;
+  }
+
+  #modal {
+    width: 400px;
+    padding: 30px 10px;
+  }
+
+  #modal h1 {
+    font-size: 25px;
+  }
+}
